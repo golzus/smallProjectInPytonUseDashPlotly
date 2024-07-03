@@ -1,0 +1,68 @@
+.main-container {
+    max-width: 100vw;
+    max-height: 100vh;
+    overflow: hidden;
+    background-color: #00008B;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.metric-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #333;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+}
+
+.metric-title {
+    font-size: 1.2em;
+}
+
+.metric-value {
+    font-size: 2em;
+}
+
+.charts-container {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.pie-chart {
+    width: 30vw;
+    height: 40vh;
+}
+
+.bar-chart {
+    width: 45vw;
+    height: 40vh;
+}
+
+.count-people-chart {
+    width: 45vw;
+    height: 40vh;
+}
+
+.general-pie-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.general-pie-chart {
+    width: 45vw;
+    height: 40vh;
+}
