@@ -38,21 +38,25 @@
     display: flex;
     justify-content: space-around;
     width: 100%;
+      padding: 5px
+    border: solid brown 5px;
 }
 
 .pie-chart {
-    width: 30vw;
+    width: 25vw;
     height: 40vh;
 }
 
 .bar-chart {
-    width: 45vw;
+    width: 25vw;
     height: 40vh;
 }
 
 .count-people-chart {
-    width: 45vw;
+    width: 25vw;
     height: 40vh;
+      padding: 5px
+    border: solid brown 5px;
 }
 
 .general-pie-container {
@@ -60,6 +64,8 @@
     display: flex;
     justify-content: center;
     margin-top: 20px;
+    padding: 5px
+    border: solid brown 5px;
 }
 
 .general-pie-chart {
