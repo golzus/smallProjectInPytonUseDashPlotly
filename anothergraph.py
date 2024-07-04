@@ -8,17 +8,21 @@ import count_people_graph  # ייבוא הפונקציות ליצירת גרפי
 import general_pie_chart  # ייבוא הפונקציות ליצירת גרף פאי כללי
 
 # טעינת הנתונים מקובץ Excel
-file_path = 'C:\\Users\\goldi\\Practicum\\exelLoads.xlsx'
+# file_path = 'C:\\Users\\goldi\\Practicum\\exelLoads.xlsx'
+file_path='./exelsFiles/exelLoads.xlsx'
 df = pd.read_excel(file_path)
 column_names = df.columns[1:]  # שמירת שמות העמודות (למעט עמודת הזמן)
 
-bar_file_path = 'C:\\Users\\goldi\\Practicum\\exelLoasColorsPeople.xlsx'
+# bar_file_path = 'C:\\Users\\goldi\\Practicum\\exelLoasColorsPeople.xlsx'
+bar_file_path='./exelsFiles/exelLoasColorsPeople.xlsx'
 bar_df = pd.read_excel(bar_file_path)
 
-count_people_file_path = 'C:\\Users\\goldi\\Practicum\\exelCountPeople.xlsx'
+count_people_file_path='./exelsFiles/exelCountPeople.xlsx'
+# count_people_file_path = 'C:\\Users\\goldi\\Practicum\\exelCountPeople.xlsx'
 count_people_df = pd.read_excel(count_people_file_path)
 
-general_pie_file_path = 'C:\\Users\\goldi\\Practicum\\exelCountGenerallyOfAllPeople.xlsx'
+# general_pie_file_path = 'C:\\Users\\goldi\\Practicum\\exelCountGenerallyOfAllPeople.xlsx'
+general_pie_file_path='./exelsFiles/exelCountGenerallyOfAllPeople.xlsx'
 general_pie_df = pd.read_excel(general_pie_file_path)
 
 # חישוב המדדים מהקובץ

@@ -2,7 +2,8 @@ import pandas as pd
 import plotly.express as px
 
 def create_graph(selected_categories):
-    file_path = 'C:\\Users\\goldi\\Practicum\\exelLoads.xlsx'
+    file_path='./exelsFiles/exelLoads.xlsx'
+    # file_path = 'C:\\Users\\goldi\\Practicum\\exelLoads.xlsx'
     df = pd.read_excel(file_path)
 
     df_melted = df.melt(id_vars=[df.columns[0]], value_vars=selected_categories, var_name='category',
