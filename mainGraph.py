@@ -41,7 +41,7 @@ app.layout = html.Div(
             className='header-container',  # מחלקה לכותרת העליונה
             children=[
                 html.Div(
-                    className='metric-container',  # מחלקה לתצוגת מדד
+                   className='metric-container',  # מחלקה לתצוגת מדד
                     children=[
                         html.Div('# of Visitors', className='metric-title'),  # כותרת מדד
                         html.Div(f'{total_people:.1f}k', className='metric-value')  # ערך המדד

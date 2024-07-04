@@ -4,7 +4,7 @@ import subprocess
 
 def test_app():
     # הרצת האפליקציה ב-subprocess
-    process = subprocess.Popen(['python', 'anothergraph.py'], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+    process = subprocess.Popen(['python', 'mainGraph.py'], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
 
     try:
         # המתנה לזמן קצר לראות אם יש שגיאות
