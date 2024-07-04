@@ -24,11 +24,7 @@ jobs:
       - name: Install dependencies
         run: |
           pip install -r requirements.txt
-
-     
-
       - name: Run tests
         run: |
-          pytest  # או כל פקודת בדיקות אחרת שאת משתמשת בה
-          
+          python pytest.py
           
